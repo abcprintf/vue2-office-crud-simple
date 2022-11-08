@@ -30,7 +30,13 @@
               >
                 Edit
               </button>
-              <button type="button" class="btn btn-danger">Delete</button>
+              <button
+                type="button"
+                class="btn btn-danger"
+                @click="deleteItem(index)"
+              >
+                Delete
+              </button>
             </td>
           </tr>
         </tbody>
